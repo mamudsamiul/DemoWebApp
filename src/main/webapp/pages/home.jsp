@@ -7,7 +7,7 @@
 <title>First JSP</title>
 </head>
 <body>
-	Hello
+	Hello ${name}
 
 </body>
 </html>
