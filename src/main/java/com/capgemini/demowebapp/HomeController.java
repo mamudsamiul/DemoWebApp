@@ -13,9 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 	@RequestMapping("home") // request mapping
 //	@ResponseBody // it is used to send data
-	public ModelAndView home(@RequestParam("name") String myName) {
+	public ModelAndView home(Employee emp) {
 		ModelAndView mv=new ModelAndView();
-		mv.addObject("name",myName);
+		mv.addObject("obj",emp);
 		mv.setViewName("home");
 		return mv; //page name
 	}

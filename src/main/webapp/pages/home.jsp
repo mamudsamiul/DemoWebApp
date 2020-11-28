@@ -7,7 +7,7 @@
 <title>First JSP</title>
 </head>
 <body>
-	Hello ${name}
+	Name: ${obj.getName()} ID: ${obj.getId() } Dept: ${obj.getDept() }
 
 </body>
 </html>
