@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller // Controller to handle request localhost:8080
 public class HomeController {
 	@RequestMapping("home") // request mapping
-//	@ResponseBody // it is used to send data
+//	@ResponseBody // it is used to send data 
 	public String home() {
 		System.out.println("hello");
-		return "home.jsp"; //page name
+		return "home"; //page name
 	}
 
 }
